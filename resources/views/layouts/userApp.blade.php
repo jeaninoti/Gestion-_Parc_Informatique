@@ -82,18 +82,19 @@
                         <p>{{ __('categories') }}</p>
                     </a>
                 </li>
+                  <li>
+                    <a href="{{route('Departement.index')}}">
+                        <i class="fa fa-sitemap"></i>
+                        <p>{{ __('Departements') }}</p>
+                    </a>
+                </li>
                 <li>
                     <a href="{{route('equipement.index')}}">
                        <i class="fa fa-laptop"></i>
                         <p>{{ __('Equipements') }}</p>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <i class="fa fa-sitemap"></i>
-                        <p>{{ __('Departements') }}</p>
-                    </a>
-                </li>
+              
                 
                 <li>
                     <a href="">

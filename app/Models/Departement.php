@@ -9,6 +9,13 @@ class Departement extends Model
 {
     use HasFactory;
 
+
+    
+    protected $fillable = [
+        'nom',
+      
+    ];
+
     public function categorie()
     {
         return $this->belongsTo(Categorie::class);

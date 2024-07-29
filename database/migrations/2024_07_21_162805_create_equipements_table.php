@@ -26,7 +26,7 @@ return new class extends Migration
             $table->date('date_inventaire');
             $table->date('date_affectation');
             $table->string('etat', 50);
-            $table->boolean('ancien')->default(false);
+            $table->boolean('Durete')->default(false);
             $table->foreign('Categorie_id')->references('id')->on('categories');
             $table->foreign('Bureau_id')->references('id')->on('bureaus');
             $table->foreign('Departement_id')->references('id')->on('departements');

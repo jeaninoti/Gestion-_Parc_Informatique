@@ -22,6 +22,7 @@ class EquipementController extends Controller
      */
     public function create()
     {
+        return view('Equipement.create');
     }
 
     /**

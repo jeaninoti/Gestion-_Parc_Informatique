@@ -7,6 +7,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\BureauController;
 use App\Http\Controllers\CategorieController;
 use App\Http\Controllers\EquipementController;
+use App\Http\Controllers\DepartementController;
 use App\Http\Controllers\NiveauController;
 
 /*
@@ -33,6 +34,7 @@ Route::resource('bureau', BureauController::class);
 Route::resource('niveau', NiveauController::class);
 Route::resource('categorie', CategorieController::class);
 Route::resource('equipement', EquipementController::class);
+Route::resource('Departement', DepartementController::class);
 
 Route::get('/userProfil', function (){
 
